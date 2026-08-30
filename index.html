@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes" />
+    <title>di_reels_</title>
+    
+    <!-- Подключаем шрифты -->
+    <link href="https://fonts.cdnfonts.com/css/majestic" rel="stylesheet" />
+    <link href="https://fonts.cdnfonts.com/css/manege-demo" rel="stylesheet" />
+    
+    <!-- Подключаем отдельный CSS -->
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+    <!-- Фоновые анимации -->
+    <div class="background-animations">
+        <div class="circle circle-1"></div>
+        <div class="circle circle-2"></div>
+        <div class="circle circle-3"></div>
+        <div class="circle circle-4"></div>
+        <div class="circle circle-5"></div>
+        <div class="star star-1">✦</div>
+        <div class="star star-2">✦</div>
+        <div class="star star-3">✦</div>
+        <div class="star star-4">✦</div>
+        <div class="star star-5">✦</div>
+        <div class="star star-6">✦</div>
+        <!-- Дополнительные креативные элементы -->
+        <div class="sparkle sparkle-1"></div>
+        <div class="sparkle sparkle-2"></div>
+        <div class="sparkle sparkle-3"></div>
+        <div class="sparkle sparkle-4"></div>
+        <div class="sparkle sparkle-5"></div>
+    </div>
+
+    <!-- Сцена загрузки с креативной анимацией -->
+    <div id="loader">
+        <!-- Прогресс-бар загрузки -->
+        <div class="loader-progress">
+            <div class="progress-bar" id="progressBar"></div>
+        </div>
+        
+        <div class="title-wrapper">
+            <div id="mainTitle">di_reels_</div>
+        </div>
+        <div class="sub-words" id="subWordsContainer">
+            <span class="sub-word" id="word1">консультация</span>
+            <span class="sub-word" id="word2">пакет мини</span>
+            <span class="sub-word" id="word3">пакет макс</span>
+        </div>
+        
+        <!-- Индикатор загрузки -->
+        <div class="loading-dots">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </div>
+
+    <!-- Основной контент -->
+    <div id="mainContent">
+        <!-- БОЛЬШАЯ КРАСНАЯ КАРТОЧКА -->
+        <div class="card-main" id="cardMain">
+            
+            <!-- Эффект свечения над карточкой -->
+            <div class="glow-effect"></div>
+            
+            <!-- МАЛЕНЬКАЯ КАРТОЧКА 1: Фото -->
+            <div class="card-small card-photo" id="cardPhoto">
+                <div class="photo-wrapper">
+                    <img src="img/photo_5229242066250965621_y 1.png" alt="Photo" />
+                    <!-- Эффект наложения градиента -->
+                    <div class="photo-gradient-overlay"></div>
+                </div>
+            </div>
+
+            <!-- Текст Консультация под фото -->
+            <div class="consultation-title" id="consultationTitle">
+                <h3>Консультация</h3>
+                <span class="price-link">price-list</span>
+            </div>
+
+            <!-- МАЛЕНЬКАЯ КАРТОЧКА 2: Шаги (белый фон) -->
+            <div class="card-small card-steps" id="cardSteps">
+                <div class="steps-list">
+                    <div class="step-item" data-delay="200">
+                        <div class="step-line">
+                            <span class="step-star">✦</span>
+                            <span class="step-text">Разбор и коррекция ваших работ</span>
+                        </div>
+                    </div>
+                    <div class="step-item" data-delay="400">
+                        <div class="step-line">
+                            <span class="step-star">✦</span>
+                            <span class="step-text">Анализ работы с клиентом</span>
+                        </div>
+                    </div>
+                    <div class="step-item" data-delay="600">
+                        <div class="step-line">
+                            <span class="step-star">✦</span>
+                            <span class="step-text">Оценка страницы и рекомендации по улучшению</span>
+                        </div>
+                    </div>
+                    <div class="step-item" data-delay="800">
+                        <div class="step-line">
+                            <span class="step-star">✦</span>
+                            <span class="step-text">Разбор прайса и его корректировка</span>
+                        </div>
+                    </div>
+                    <div class="step-item" data-delay="1000">
+                        <div class="step-line">
+                            <span class="step-star">✦</span>
+                            <span class="step-text">Персональные рекомендации и точки роста</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="steps-footer">
+                    <span class="price">3.500₽</span>
+                </div>
+            </div>
+
+            <!-- КРЕАТИВНАЯ ИКОНКА TELEGRAM -->
+            <div class="telegram-wrapper" id="telegramWrapper">
+                <a href="https://t.me/Di_reelssss" target="_blank" class="telegram-link">
+                    <div class="telegram-icon">
+                        <svg viewBox="0 0 24 24" width="32" height="32" fill="white">
+                            <path d="M11.944 0A12 12 0 0 0 0 12a12 12 0 0 0 12 12 12 12 0 0 0 12-12A12 12 0 0 0 12 0a12 12 0 0 0-.056 0zm4.962 7.224c.1-.002.321.023.465.14a.506.506 0 0 1 .171.325c.016.093.036.306.02.472-.18 1.898-.962 6.502-1.36 8.627-.168.9-.499 1.201-.82 1.23-.696.065-1.225-.46-1.9-.902-1.056-.693-1.653-1.124-2.678-1.8-1.185-.78-.417-1.21.258-1.91.177-.184 3.247-2.977 3.307-3.23.007-.032.014-.15-.056-.212s-.174-.041-.249-.024c-.106.024-1.793 1.14-5.061 3.345-.48.33-.913.49-1.302.48-.428-.008-1.252-.241-1.865-.44-.752-.245-1.349-.374-1.297-.789.027-.216.325-.437.893-.663 3.498-1.524 5.83-2.529 6.998-3.014 3.332-1.386 4.025-1.627 4.476-1.635z"/>
+                        </svg>
+                    </div>
+                    <span class="telegram-username">@Di_reelssss</span>
+                    <span class="telegram-arrow">→</span>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Подключаем отдельный JS -->
+    <script src="script.js"></script>
+</body>
+</html>
